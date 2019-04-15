@@ -1,4 +1,4 @@
-var urlweb = "http://localhost:8080/crudphp/";
+var urlweb = "http://www.guabba.com/crudphp/";
 
 function save() {
     var valor = "correcto";
