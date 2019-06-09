@@ -13,8 +13,7 @@ class Database{
     public static function getConnection(){
         try{
             if(empty(self::$db)){
-                $pdo = new PDO('mysql:host=localhost;dbname=guabba_easycrud;charset=utf8','guabba_root','Aa12345678');
-                //$pdo = new PDO('mysql:host=localhost;dbname=easycrud;charset=utf8','root','');
+                $pdo = new PDO('mysql:host=localhost;dbname=easycrud;charset=utf8','root','');
                 //En caso de trabajar localmente, descomentar la siguiente linea y comentar la anterior
                 //$pdo = new PDO('mysql:host=localhost;dbname=zxcvbnm;charset=utf8','root','');
 
